@@ -6,6 +6,12 @@ $emp = [
     [4,"Amir","Driver",5000]
 ];
 
+echo "<pre>";
+print_r($emp);
+echo "<pre>";
+
+echo "<br>";
+
 
 echo $emp[0][0] . " ";
 echo $emp[0][1] . " ";
@@ -28,8 +34,7 @@ echo $emp[3][2] . " ";
 echo $emp[3][3] . " ";
 echo "<br>";
 
-for($row=0; $row<4; $row++ ){
-    
+for($row=0; $row<4; $row++ ){   
 for($col=0; $col<4; $col++ ){
 echo $emp[$row][$col] . " ";
 }
@@ -58,9 +63,7 @@ echo"</table>";
 
 
 
-echo "<pre>";
-print_r($emp);
-echo "<pre>";
+
 
 
 ?>
