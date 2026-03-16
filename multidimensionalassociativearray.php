@@ -19,7 +19,6 @@ $marks = [
     ];
 
 
-
     echo "<table border='2px' cellpadding='5px'>
     <tr>
     <th>Student name </th>
