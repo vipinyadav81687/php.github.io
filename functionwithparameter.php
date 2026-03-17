@@ -30,3 +30,5 @@ function sum($a, $b){
 $one = 10;
 $two = 20.55;
 sum($one, $two);
+
+?>
