@@ -7,7 +7,7 @@ echo "<pre>";
 print_r($fruit);
 echo "</pre>";
 
-array_push($fruit,"pomigranate","guavava","pineappple");
+array_push($fruit,"pomigranate","guavava","pineapple");
 
 echo "<pre>";
 print_r($fruit);
