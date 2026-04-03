@@ -1,7 +1,8 @@
 <?php
 $color = [ "red","green","blue","yellow","brown"];
 
-array_splice($color,1);
+$fruit = ["orange","Apple"];
+array_splice($color,2,2, $fruit);
 
 echo "<pre>";
 print_r($color);
