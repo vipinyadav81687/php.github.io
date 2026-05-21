@@ -28,6 +28,5 @@ $newArray3 = array_change_key_case($a, CASE_UPPER);
 echo "<pre>";
 print_r($newArray3);
 echo "</pre>";
-
 ?>
 
